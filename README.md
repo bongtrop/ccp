@@ -1,4 +1,4 @@
-# clip-server
+# ccp
 
 The copy and paste program with clip-server use stdin and stdout.
 
