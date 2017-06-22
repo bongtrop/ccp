@@ -8,6 +8,7 @@ Github [https://github.com/bongtrop/ccp](https://github.com/bongtrop/ccp)
 
 - Python 2 but i think that code can use in python 3
 - Python module that you can see in requirements.txt
+- [clip-server](https://github.com/bongtrop/clip-server) by default it point to [http://clip.rop.sh](http://clip.rop.sh)
 
 ## Installation
 
@@ -30,7 +31,7 @@ python setup.py install
 
 ## Usage
 
-just ```ccp -h```
+just ```ccp -h```. If you want to change clip server address, Change the `CLIP_SERVER` environment.
 
 ```bash
 copy paste program with clip-server use stdin and stdout

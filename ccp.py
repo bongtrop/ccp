@@ -22,7 +22,7 @@ from Crypto.Cipher import AES
 __version__ = 1.0
 __name__ = "ccp"
 
-HOST = os.environ.get('ZCP_HOST') or 'http://clip.rop.sh'
+HOST = os.environ.get('CLIP_SERVER') or 'http://clip.rop.sh'
 
 def die(status):
     sys.stdout.write("Error [%s]"%(str(status)))
