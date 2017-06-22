@@ -39,10 +39,10 @@ copy paste program with clip-server use stdin and stdout
 Usage:      ccp copy <name> [-p <password>]
             ccp paste <name> [-p <password>]
 
-            Option:     -e Encrypt with secret key
+Option:     -e Encrypt with secret key
 
-            Example:    echo "this_is_data" | ccp copy this_is_name
-                        ccp paste this_is_name
+Example:    echo "this_is_data" | ccp copy this_is_name
+            ccp paste this_is_name
 ```
 
 ## Contribution
