@@ -1,6 +1,6 @@
 # ccp
 
-The copy and paste program with clip-server use stdin and stdout.
+The copy and paste program with clip-server use stdin and stdout. I have problem with send text or file between host is hard so just send it with the relay server.
 
 Github [https://github.com/bongtrop/ccp](https://github.com/bongtrop/ccp)
 
