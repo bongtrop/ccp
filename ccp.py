@@ -5,7 +5,7 @@
 Usage:      ccp copy <name> [-p <password>]
             ccp paste <name> [-p <password>]
 
-Option:     -e Encrypt with secret key
+Option:     -p Encrypt with password
 
 Example:    echo "this_is_data" | ccp copy this_is_name
             ccp paste this_is_name
