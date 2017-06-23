@@ -14,6 +14,7 @@ setup(name=ccp.__name__,
       description='copy paste program with clip-server use stdin and stdout',
       long_description=ccp.__doc__,
       scripts=['ccp.py'],
+      py_modules=['ccp'],
       install_requires=[
        'requests',
        'docopt_dispatch',
