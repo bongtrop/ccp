@@ -24,6 +24,10 @@ __name__ = "ccp"
 
 HOST = os.environ.get('CLIP_SERVER') or 'http://clip.rop.sh'
 
+if sys.platform == "win32":
+    import os, msvcrt
+    msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
+
 def die(status):
     sys.stdout.write("Error [%s]"%(str(status)))
     exit()
