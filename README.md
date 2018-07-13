@@ -1,4 +1,4 @@
-# ccp
+# python-ccp
 
 The copy and paste program with clip-server use stdin and stdout. I have problem with send text or file between host is hard so just send it with the relay server.
 
@@ -34,7 +34,7 @@ python setup.py install
 just ```ccp -h```. If you want to change clip server address, Change the `CLIP_SERVER` environment.
 
 ```bash
-copy paste program with clip-server use stdin and stdout version 1.1
+copy paste program with clip-server use stdin and stdout version 1.3
 
 Usage:      ccp copy <name> [-p <password>]
             ccp paste <name> [-p <password>]

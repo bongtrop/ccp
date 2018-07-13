@@ -7,11 +7,11 @@ with open("README.md") as f:
     long_des = f.read()
 
 setup(name="python-ccp",
-      version="1.1",
+      version="1.3",
       author='Pongsakorn Sommalai',
       author_email='bongtrop@gmail.com',
       license='MIT',
-
+      py_modules=['ccp'],
       url='https://github.com/bongtrop/ccp',
       description='copy paste program with clip-server use stdin and stdout',
       long_description=long_des,
