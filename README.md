@@ -17,7 +17,7 @@ It's simple like the other python project.
 ### pip 
 
 ```bash
-pip install git+https://github.com/bongtrop/ccp.git
+pip install python-ccp
 ```
 
 ### Manual
@@ -34,7 +34,7 @@ python setup.py install
 just ```ccp -h```. If you want to change clip server address, Change the `CLIP_SERVER` environment.
 
 ```bash
-copy paste program with clip-server use stdin and stdout
+copy paste program with clip-server use stdin and stdout version 1.1
 
 Usage:      ccp copy <name> [-p <password>]
             ccp paste <name> [-p <password>]
