@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-"""copy paste program with clip-server use stdin and stdout
+"""copy paste program with clip-server use stdin and stdout version 1.1
 
 Usage:      ccp copy <name> [-p <password>]
             ccp paste <name> [-p <password>]
@@ -19,7 +19,7 @@ from getpass import getpass
 from docopt_dispatch import dispatch
 from Crypto.Cipher import AES
 
-__version__ = 1.0
+__version__ = 1.1
 __name__ = "ccp"
 
 HOST = os.environ.get('CLIP_SERVER') or 'http://clip.rop.sh'

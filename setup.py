@@ -2,19 +2,20 @@
 #-*- coding:utf-8 -*-
 
 from setuptools import setup
-import ccp
 
-setup(name=ccp.__name__,
-      version=ccp.__version__,
+with open("README.md") as f:
+    long_des = f.read()
+
+setup(name="python-ccp",
+      version="1.1",
       author='Pongsakorn Sommalai',
       author_email='bongtrop@gmail.com',
       license='MIT',
 
       url='https://github.com/bongtrop/ccp',
       description='copy paste program with clip-server use stdin and stdout',
-      long_description=ccp.__doc__,
+      long_description=long_des,
       scripts=['ccp.py'],
-      py_modules=['ccp'],
       install_requires=[
        'requests',
        'docopt_dispatch',
